@@ -63,7 +63,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     "@type": "Article",
     headline: post.title,
     description: post.excerpt,
-    image: `https://prismorph.com${post.coverImage}`,
+    image: `https://prismorph.com/blog/${post.slug}/opengraph-image`,
     datePublished: post.publishedAt,
     dateModified: post.publishedAt,
     author: {
@@ -76,7 +76,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       name: "Prismorph",
       logo: {
         "@type": "ImageObject",
-        url: "https://prismorph.com/icon.svg",
+        url: "https://prismorph.com/icon",
       },
     },
     mainEntityOfPage: {

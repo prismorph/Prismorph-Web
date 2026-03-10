@@ -13,7 +13,7 @@ const siteConfig = {
   description:
     "Transform your photos into stunning art with AI-powered filters. Apply magical effects like Cyberpunk, Oil Painting, Anime, Watercolor and 50+ artistic styles in seconds.",
   url: "https://prismorph.com",
-  ogImage: "https://prismorph.com/og-image.png",
+  ogImage: "https://prismorph.com/opengraph-image",
   creator: "Prismorph Team",
   keywords: [
     "AI photo editor",
@@ -104,11 +104,8 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/icon.svg", type: "image/svg+xml" },
-    ],
-    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+    icon: [{ url: "/icon", type: "image/png" }],
+    apple: [{ url: "/apple-icon", type: "image/png" }],
   },
   manifest: "/manifest.json",
   category: "technology",
@@ -140,11 +137,6 @@ export default function RootLayout({
         url: siteConfig.url,
         name: siteConfig.name,
         description: siteConfig.description,
-        potentialAction: {
-          "@type": "SearchAction",
-          target: `${siteConfig.url}/search?q={search_term_string}`,
-          "query-input": "required name=search_term_string",
-        },
       },
       {
         "@type": "Organization",
@@ -153,15 +145,10 @@ export default function RootLayout({
         url: siteConfig.url,
         logo: {
           "@type": "ImageObject",
-          url: `${siteConfig.url}/logo.png`,
-          width: 512,
-          height: 512,
+          url: `${siteConfig.url}/icon`,
+          width: 32,
+          height: 32,
         },
-        sameAs: [
-          "https://twitter.com/prismorph",
-          "https://instagram.com/prismorph",
-          "https://github.com/prismorph",
-        ],
       },
       {
         "@type": "MobileApplication",
@@ -175,13 +162,6 @@ export default function RootLayout({
           price: "0",
           priceCurrency: "USD",
           description: "Free to download with in-app purchases",
-        },
-        aggregateRating: {
-          "@type": "AggregateRating",
-          ratingValue: "4.8",
-          ratingCount: "10000",
-          bestRating: "5",
-          worstRating: "1",
         },
         featureList: [
           "AI-powered photo transformation",

@@ -64,10 +64,10 @@ Ready to transform your photos? Prismorph offers 50+ AI-powered filters that mak
 
 Whether you're a social media enthusiast, content creator, or just someone who loves creative photography, AI photo transformation opens up a world of possibilities.
     `,
-    coverImage: "/blog/ai-photo-transformation.jpg",
+    coverImage: "/images/after_image_1.webp",
     author: {
       name: "Prismorph Team",
-      avatar: "/blog/authors/team.jpg",
+      avatar: "",
     },
     category: "Guides",
     tags: ["AI", "photo transformation", "beginners guide", "neural networks", "image editing"],
@@ -146,10 +146,10 @@ Convert photos into detailed pencil or charcoal sketches. Unique and eye-catchin
 
 All these filters and more are available in Prismorph. Start transforming your Instagram content today and watch your engagement soar!
     `,
-    coverImage: "/blog/instagram-filters.jpg",
+    coverImage: "/images/after_image_1.webp",
     author: {
       name: "Prismorph Team",
-      avatar: "/blog/authors/team.jpg",
+      avatar: "",
     },
     category: "Tips & Tricks",
     tags: ["Instagram", "social media", "filters", "content creation", "influencer tips"],
@@ -233,10 +233,10 @@ As technology advances, expect:
 
 Experience the technology firsthand with Prismorph's anime filters. Transform your photos into stunning anime artwork in seconds!
     `,
-    coverImage: "/blog/anime-filter-technology.jpg",
+    coverImage: "/images/before_image_1.webp",
     author: {
       name: "Prismorph Team",
-      avatar: "/blog/authors/team.jpg",
+      avatar: "",
     },
     category: "Technology",
     tags: ["anime filter", "AI technology", "neural networks", "deep learning", "GANs"],
@@ -335,10 +335,10 @@ AI photo transformation is powerful, but the quality of your results depends on 
 
 The more you experiment with AI photo transformation, the better you'll understand what works. Prismorph offers 50+ filters to explore - start experimenting today!
     `,
-    coverImage: "/blog/photo-tips.jpg",
+    coverImage: "/images/after_image_1.webp",
     author: {
       name: "Prismorph Team",
-      avatar: "/blog/authors/team.jpg",
+      avatar: "",
     },
     category: "Tips & Tricks",
     tags: ["photo tips", "AI photography", "image quality", "best practices", "tutorials"],
@@ -436,10 +436,10 @@ AI won't replace traditional editing - it enhances it. Tools like Prismorph comp
 
 Whether you're a professional photographer or casual user, understanding both approaches helps you choose the right tool for each project.
     `,
-    coverImage: "/blog/ai-vs-traditional.jpg",
+    coverImage: "/images/before_image_1.webp",
     author: {
       name: "Prismorph Team",
-      avatar: "/blog/authors/team.jpg",
+      avatar: "",
     },
     category: "Guides",
     tags: ["AI art", "photo editing", "Photoshop", "comparison", "image editing"],
@@ -556,10 +556,10 @@ Save in high resolution and update your profiles!
 
 Ready to create profile pictures that get noticed? Prismorph offers the perfect filters for every platform. Start your transformation today!
     `,
-    coverImage: "/blog/profile-pictures.jpg",
+    coverImage: "/images/after_image_1.webp",
     author: {
       name: "Prismorph Team",
-      avatar: "/blog/authors/team.jpg",
+      avatar: "",
     },
     category: "Tips & Tricks",
     tags: ["profile picture", "selfie", "social media", "LinkedIn", "Instagram", "dating apps"],
