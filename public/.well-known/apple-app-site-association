@@ -4,7 +4,7 @@
     "details": [
       {
         "appID": "TEAM_ID.com.prismorph.ai",
-        "paths": ["/app", "/app/*", "/download", "/download/*"]
+        "paths": ["/go", "/go/*"]
       }
     ]
   },
