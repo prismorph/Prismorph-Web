@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "TEAM_ID.com.prismorph.ai",
+        "paths": ["/app", "/app/*", "/download", "/download/*"]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": ["TEAM_ID.com.prismorph.ai"]
+  }
+}
